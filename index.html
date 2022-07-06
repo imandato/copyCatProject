@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+  
+<nav class="nav">
+    <img class="navbar-brand" id="logo" src="./assets/imgs/Airbnb_Logo_Bélo.svg.png" alt="Airbnb Logo">
+    <ul id="nav-list">
+        <li>
+            Become a host
+        </li>
+        <li>
+            Help
+        </li>
+        <li>
+            Sign Up
+        </li>
+        <li>
+            Log in
+        </li>
+    </ul>
+    <!-- <button id="becomehost">Become a host</button>
+    <button id="help">Help</button>
+    <button id="sign-up">Sign Up</button>
+    <button id="log-in">Log in</button> -->
+</nav>
+<body>
+    <div class="form-img">
+        <div class="form">
+            
+            <form action="thankyou.html" class="container">
+                <div id="find-places">Find places to stay on Airbnb</div>
+                <div id="discover-homes">Discover entire homes and private rooms perfect for any trip.</div>
+
+                <div class="form-floating location">
+                    <input class="form-control" id="location-input"  placeholder="Anywhere" value="Anywhere">
+                    <label for="location-input">Location</label>
+                </div>
+                <div class="form-floating checkin">
+                    <input class="form-control" id="check-in" type="text" name="Check-In" placeholder="Add Date" value="Add Date">
+                    <label for="Check-In">Check-In</label>
+                </div>
+                <div class="form-floating checkout">
+                    <input class="form-control" id="check-out" type="text" name="Check-Out" placeholder="Add Date" value="Add Date">
+                    <label for="Check-Out">Check-Out</label>
+                </div>
+
+                <div class="form-floating adults">
+                    <select class="form-select" id="floatingSelect" name="adults" id="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                    </select>
+                    <label for="floatingSelect">Adults</label>
+                </div>
+                <div class="form-floating children">
+                    <select class="form-select" id="floatingSelect" name="children" id="children">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <label for="floatingSelect">Children</label>
+                </div>
+                <label for="amenities">Amenities</label>
+                <input type="submit" value="Hot tub" id="hot-tub-button">
+                <input type="submit" value="Pool" id="pool-button">
+                <input type="submit" value="Wifi" id="wifi-button">
+                <div class="input-icons">
+                    <i class="bi bi-search"></i>
+                    <input type="submit" value="Search" id="search-button">
+                </div>
+                <!-- <i class="bi bi-search"></i>
+                <input type="submit" value="Search" id="search-button"> -->
+            </form>
+        </div>
+        <img id="form-image" src="./assets/imgs/stock.jpeg" alt="stock image">
+    </div>
+    <div class="tryHosting">
+        <img id="hosting-image" src="./assets/imgs/stock.jpeg" alt="stock">
+        <h2>Try hosting</h2>
+        <p>Earn up to $3,523/month by sharing your space in Hackensack. <i class="bi bi-question-circle-fill"></i></p>
+        <button id="learn-more-button">Learn more</button>
+    </div>
+    <div class="what-saying">
+        <h2>What guests are saying about homes in United States</h2>
+        <h4>Over 79,500,000 guest reviews with an average of 4.8 out of 5 stars</h4>
+        <div class="review-entries">
+            <div class="review-entry">
+                <img class="review-pic" src="./assets/imgs/stock.jpeg" alt="stock photo">
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <div class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <div class="profile">
+                    <img class="profile-pic" src="./assets/imgs/stock.jpeg" alt="stock profile">
+                    <div class="profile-info">
+                        <div class="profile-name">Ashley</div>
+                        <div class="profile-place">United States</div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-entry">
+                <img class="review-pic" src="./assets/imgs/stock.jpeg" alt="stock photo">
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <div class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <div class="profile">
+                    <img class="profile-pic" src="./assets/imgs/stock.jpeg" alt="stock profile">
+                    <div class="profile-info">
+                        <div class="profile-name">Ashley</div>
+                        <div class="profile-place">United States</div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-entry">
+                <img class="review-pic" src="./assets/imgs/stock.jpeg" alt="stock photo">
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                <div class="review">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <div class="profile">
+                    <img  class="profile-pic" src="./assets/imgs/stock.jpeg" alt="stock profile">
+                    <div class="profile-info">
+                        <div class="profile-name">Ashley</div>
+                        <div class="profile-place">United States</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    
+    <div class="more-info">
+        <div id="customer-support">
+            <i class="bi bi-chat-left-dots"></i>
+            <div class="info-title">24/7 customer support</div>
+            <div>
+                Day or night, we're here for you. Talk to our support
+                team team anvwhere in the world, any hour of day.
+            </div>
+        </div>
+        <div id="hosting-req">
+            <i class="bi bi-house-door"></i>
+            <div class="info-title">Global hosting requirements</div>
+            <div>
+                All hosts must meet hosting requirements and maintain
+                a minimum rating to be on Airbnb.
+            </div>
+        </div>
+        <div id="all-stars">
+            <i class="bi bi-star"></i>
+            <div class="info-title">All-star Hosts</div>
+            <div>
+                From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality!
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="just-booked">
+        <div>Just booked in United States</div>
+        <div class="treehouse-listings">
+            <div class="treehouse-listing">
+                <img src="./assets/imgs/tree2.jpeg" alt="tree stock image">
+                <div class="tree-house-location">Treehouse in Park City</div>
+                <div class="tree-house-review"><i class="bi bi-star-fill"></i>4.98</div>
+                <div class="tree-house-review-number">(476)</div>
+                <div class="tree-house-title">Dreamy Treehouse Above Park City, Utah</div>
+                <div class="tree-house-price">$238</div>
+                <div class="per-night">/night</div>
+            </div>
+            <div class="treehouse-listing">
+                <img src="./assets/imgs/tree2.jpeg" alt="tree stock image">
+                <div class="tree-house-location">Treehouse in Park City</div>
+                <div class="tree-house-review"><i class="bi bi-star-fill"></i>4.98</div>
+                <div class="tree-house-review-number">(476)</div>
+                <div class="tree-house-title">Dreamy Treehouse Above Park City, Utah</div>
+                <div class="tree-house-price">$238</div>
+                <div class="per-night">/night</div>
+            </div>
+            <div class="treehouse-listing">
+                <img src="./assets/imgs/tree2.jpeg" alt="tree stock image">
+                <div class="tree-house-location">Treehouse in Park City</div>
+                <div class="tree-house-review"><i class="bi bi-star-fill"></i>4.98</div>
+                <div class="tree-house-review-number">(476)</div>
+                <div class="tree-house-title">Dreamy Treehouse Above Park City, Utah</div>
+                <div class="tree-house-price">$238</div>
+                <div class="per-night">/night</div>
+            </div>
+            <div class="treehouse-listing">
+                <img src="./assets/imgs/tree2.jpeg" alt="tree stock image">
+                <div class="tree-house-location">Treehouse in Park City</div>
+                <div class="tree-house-review"><i class="bi bi-star-fill"></i>4.98</div>
+                <div class="tree-house-review-number">(476)</div>
+                <div class="tree-house-title">Dreamy Treehouse Above Park City, Utah</div>
+                <div class="tree-house-price">$238</div>
+                <div class="per-night">/night</div>
+            </div>
+        </div>
+        
+        <button class="show-more">Show(2000+)</button>
+    </div>
+    <div class="when-travel">
+        <div>When are you traveling?</div>
+        <div>Add dates for updated pricing and availability</div>
+        <button class="add-dates-button">Add dates</button>
+    </div>
+</body>
+<footer>
+   <ul>
+       <li>
+           Airbnb
+       </li>
+       <li>
+           Stays
+       </li>
+       <li>
+           United States
+        </li>
+   </ul>
+   <hr>
+   <ul>
+       <li>
+            2022 Airbnb, Inc. All rights reserved
+       </li>
+       <li>
+           Privacy
+       </li>
+       <li>
+           Terms
+       </li>
+       <li>
+           Site Map
+       </li>  
+   </ul>
+</footer>
+
+</html>
